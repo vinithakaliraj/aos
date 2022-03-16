@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from time import sleep
-from aos1 import aos_locators as locators
+from aos import aos_locators as locators
 import datetime
 from selenium.webdriver.common.by import By
 

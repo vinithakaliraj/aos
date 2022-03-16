@@ -1,5 +1,5 @@
 import unittest
-from aos1 import aos_methods as methods
+from aos import aos_methods as methods
 
 
 class AosTestPositiveTestCase(unittest.TestCase):
