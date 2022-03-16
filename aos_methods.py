@@ -9,7 +9,7 @@ s = Service(executable_path='C:/python/chromedriver.exe')
 driver = webdriver.Chrome(service=s)
 def set_up():
     print(f'Launch {locators.aos_home_page_url} ')
-    print('--------------------~*~--------------------')
+    print('--------------------~*~---------------------')
     driver.maximize_window()
     driver.implicitly_wait(30)
     driver.get(locators.aos_home_page_url)
