@@ -13,4 +13,8 @@ class AosTestPositiveTestCase(unittest.TestCase):
         methods.checking_homepage_texts()
         methods.top_menu_clickable()
         methods.contactus()
+        methods.add_item_shoppingcart()
+        methods.view_orders()
+        methods.delete_user()
         methods.tear_down()
+        
