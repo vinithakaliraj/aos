@@ -1,5 +1,5 @@
 import unittest
-from aos import aos_methods as methods
+import aos_methods as methods
 
 
 class AosTestPositiveTestCase(unittest.TestCase):
@@ -17,4 +17,3 @@ class AosTestPositiveTestCase(unittest.TestCase):
         methods.view_orders()
         methods.delete_user()
         methods.tear_down()
-        
