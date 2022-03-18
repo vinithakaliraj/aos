@@ -10,7 +10,7 @@ aos_home_page_title = '\xa0Advantage Shopping'
 # new_user
 f_name = fake.first_name()
 l_name = fake.last_name()
-username = f'{(f_name + l_name[0:1]).lower()}'
+username = f'{(f_name + l_name[0:1]).lower() + fake.pyint(111, 999)}'
 email = f'{username}@gm.ca'
 phone = fake.phone_number()
 city = fake.city()
