@@ -16,7 +16,7 @@ phone = fake.phone_number()
 city = fake.city()
 country = fake.current_country()
 address = fake.street_address()
-province = fake.province()[0:9]
+province = fake.province_abbr()
 postal_code = fake.postalcode()
 password = fake.password(length=10, special_chars=True, upper_case=True, digits=True)
 
